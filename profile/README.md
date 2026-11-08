@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://www.netninjas.eu">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://www.netninjas.eu/images/mark-paper.png">
-      <img src="https://www.netninjas.eu/images/mark-ink.png" alt="Net Ninjas logo: a navy cloud wearing a ninja mask" width="160">
+      <source media="(prefers-color-scheme: dark)" srcset="https://www.netninjas.eu/images/logo-text.png">
+      <img src="https://www.netninjas.eu/images/logo-text.png" alt="Net Ninjas logo: a navy cloud wearing a ninja mask" width="160">
     </picture>
   </a>
 </p>
@@ -24,7 +24,7 @@
 
 ## Hi, I'm Jeff 👋
 
-I'm Jeff Kloythanomsup, and Net Ninjas is my consultancy. I've spent about 20 years in cloud, DevOps, and AI work, from cloud support to Fortune 500 migrations to founding my own startup.
+I'm Jeff Kloythanomsup, and Net Ninjas is my solo EU-based consultancy. I've spent about 20 years in cloud, DevOps, and AI work, from cloud support to Fortune 500 migrations to founding my own startup.
 
 I map how your systems connect before I change any of them. Then I build the migration, the platform, and the AI work as one piece. Your engineers run it after I leave, and the next step stays easy to see.
 
