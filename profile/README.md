@@ -85,4 +85,4 @@ Prefer email or phone?
 💼 [LinkedIn](https://www.linkedin.com/in/jeffkloy) ·
 💬 [WhatsApp](https://wa.me/message/KYFMLLXSMH3YB1)
 
-<sub>Net Ninjas Consulting · Herengracht 420, 1017 BZ Amsterdam, Netherlands · Monday to Friday, 10:00 to 18:00 CET</sub>
+<sub>Net Ninjas Consulting · Herengracht 420, 1017BZ Amsterdam, Netherlands · Monday to Friday, 10:00 to 18:00 CET</sub>
