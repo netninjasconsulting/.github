@@ -10,8 +10,8 @@
 <h1 align="center">Net Ninjas Consulting</h1>
 
 <p align="center">
-  <strong>Cloud, DevOps, and AI consulting for startups, scale-ups, and small businesses across the EU.</strong><br>
-  One senior engineer who sees systems whole. Based in Amsterdam.
+  <strong>Cloud and AI for founders, startups, scale-ups, and small businesses.</strong><br>
+  One senior engineer who sees systems whole. Based in Amsterdam, working across the EU.
 </p>
 
 <p align="center">
@@ -37,17 +37,19 @@ I do the discovery, the design, and the hands-on work myself. No hand-offs to a 
 | ☁️ | [**Cloud migration**](https://www.netninjas.eu/services/cloud-migration) | Move onto AWS, Azure, or Google Cloud, or out of a setup you've outgrown. I map every dependency before anything moves. |
 | ⚙️ | [**Platform engineering**](https://www.netninjas.eu/services/platform-and-cost-engineering) | Make the cloud you already run calmer, cheaper, and understood by more than one person on the team. |
 | 🔐 | [**Cloud security hardening**](https://www.netninjas.eu/services/cloud-security-hardening) | Find the gaps in your accounts, identity, network, and data, rank them by what an attacker reaches first, and close them with your team. |
+| 🛡️ | [**AI-built app security review**](https://www.netninjas.eu/services/ai-built-app-security-review) | Get the app your AI coding agent wrote reviewed, from secrets and sign-in to the cloud account behind it, with what to fix first ranked. From €500. |
 | 🤖 | [**AI integration**](https://www.netninjas.eu/services/ai-integration) | Put language models to work on the problems that matter in your product and back office, and ship them to production. |
-| 🧭 | [**Fractional cloud leadership**](https://www.netninjas.eu/services/fractional-cloud-leadership) | A senior cloud lead for 10 to 20 hours a week, long before a full-time cloud team makes sense. |
+| 🧭 | [**Fractional cloud leadership**](https://www.netninjas.eu/services/fractional-cloud-leadership) | A senior cloud lead on a fixed monthly retainer, long before a full-time cloud team makes sense. |
 
 ## Clear prices, agreed before any work starts
 
 | Engagement | Price |
 |---|---|
 | Cloud Cost & Architecture Review | €2,500 |
-| Cloud Security Posture & Hardening | €5,000 to €9,000 |
-| AI Implementation Sprint | €6,000 to €12,000 |
 | Cloud Migration & Platform Engineering | €10,000 to €35,000 |
+| Cloud Security Posture & Hardening | €5,000 to €9,000 |
+| AI-Built App Security Review | €500 to €3,500 |
+| AI Implementation Sprint | €6,000 to €12,000 |
 | Fractional Cloud & AI Advisor | €2,000 to €4,000 per month |
 
 Most engagements start with the review: an honest map of your infrastructure, security, scalability, and cloud spend, turned into a ranked roadmap. [See full pricing →](https://www.netninjas.eu/pricing)
