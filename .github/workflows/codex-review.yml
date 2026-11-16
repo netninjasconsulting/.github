@@ -1,5 +1,6 @@
 name: Codex review and fixes
 on:
+  pull_request:
   workflow_call:
     secrets:
       OPENAI_API_KEY:
