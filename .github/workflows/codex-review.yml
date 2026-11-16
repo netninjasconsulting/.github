@@ -49,6 +49,25 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
           persist-credentials: false
+      - name: Prepare unprivileged Codex account
+        if: steps.pr.outputs.run == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo adduser --system --home /home/codex-review --shell /bin/bash --group codex-review
+          # Grant traversal without adding Codex to the runner's groups.
+          parent="$(dirname "$GITHUB_WORKSPACE")"
+          while [ "$parent" != / ]; do
+            sudo setfacl -m u:codex-review:--x "$parent"
+            parent="$(dirname "$parent")"
+          done
+          sudo setfacl -R -m u:codex-review:rwX "$GITHUB_WORKSPACE"
+          # Keep files created by Codex accessible to the publishing step.
+          sudo find "$GITHUB_WORKSPACE" -type d -exec setfacl -m "d:u:$(id -un):rwx,d:u:codex-review:rwx" {} +
+          sudo -H -u codex-review git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          sudo setfacl -m u:codex-review:--x "$RUNNER_TEMP"
+          touch "$RUNNER_TEMP/codex-review-report.md"
+          sudo setfacl -m u:codex-review:rw- "$RUNNER_TEMP/codex-review-report.md"
       - name: Review and fix
         id: codex
         if: steps.pr.outputs.run == 'true'
@@ -58,7 +77,8 @@ jobs:
           model: gpt-6.1-sol
           effort: high
           permission-profile: ':workspace'
-          safety-strategy: drop-sudo
+          safety-strategy: unprivileged-user
+          codex-user: codex-review
           # Eligibility and actor write permission were checked above.
           allow-users: '*'
           output-file: ${{ runner.temp }}/codex-review-report.md
@@ -126,7 +146,7 @@ jobs:
             const fs = require('node:fs');
             const path = require('node:path');
             const file = path.join(process.env.RUNNER_TEMP, 'codex-review-report.md');
-            const report = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : 'No report produced; see workflow logs.';
+            const report = (fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : '') || 'No report produced; see workflow logs.';
             const {owner, repo} = context.repo;
             const body = `<!-- codex-review:status:v1 -->\n## Codex review\n\n**Status: ${process.env.JOB_STATUS}**\n\n${process.env.PUBLICATION || 'Fixes were not published; see workflow logs.'}\n\n${report.slice(0,55000)}\n\n---\nReview: ${process.env.REVIEW_STATUS}; publication: ${process.env.PUBLISH_STATUS}.\nReviewed revision: \`${context.payload.pull_request.head.sha}\`\n[Workflow run](${context.serverUrl}/${owner}/${repo}/actions/runs/${context.runId})\n\nRun required CI on the fix commit before merging; token-triggered PR checks may require approval.`;
             await github.rest.issues.updateComment({owner, repo, comment_id: Number(process.env.COMMENT_ID), body});
