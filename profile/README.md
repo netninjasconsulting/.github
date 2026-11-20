@@ -36,8 +36,8 @@ I do the discovery, the design, and the hands-on work myself. No hand-offs to a 
 
 | | Service | What it means for you |
 |---|---|---|
-| ☁️ | [**Cloud migration**](https://www.netninjas.us/services/cloud-migration) | Move onto AWS, Azure, or Google Cloud, or out of a setup you've outgrown. I map every dependency before anything moves. |
-| ⚙️ | [**Platform engineering**](https://www.netninjas.us/services/platform-and-cost-engineering) | Make the cloud you already run calmer, cheaper, and understood by more than one person on the team. |
+| 🗺️ | [**Cloud cost & architecture review**](https://www.netninjas.us/services/cloud-cost-architecture-review) | I map your infrastructure, security, scalability, and cloud spend as one system. You get a roadmap ranked by risk, savings, and effort, for a fixed $2,500 or €2,500. |
+| ☁️ | [**Platform engineering & cloud migrations**](https://www.netninjas.us/services/platform-engineering-and-cloud-migrations) | Make the cloud you already run calmer and cheaper, or move onto AWS, Azure, or Google Cloud in rehearsed waves. I map every dependency before anything moves. |
 | 🔐 | [**Cloud security hardening**](https://www.netninjas.us/services/cloud-security-hardening) | Find the gaps in your accounts, identity, network, and data, rank them by what an attacker reaches first, and close them with your team. |
 | 🛡️ | [**AI-built app security review**](https://www.netninjas.us/services/ai-built-app-security-review) | Get the app your AI coding agent wrote reviewed, from secrets and sign-in to the cloud account behind it, with what to fix first ranked. From $500 or €500. |
 | 🤖 | [**AI integration**](https://www.netninjas.us/services/ai-integration) | Put language models to work on the problems that matter in your product and back office, and ship them to production. |
@@ -50,13 +50,13 @@ The links go to the US site. Every service has the same page on [netninjas.eu](h
 | Engagement | US clients | EU clients |
 |---|---|---|
 | Cloud Cost & Architecture Review | $2,500 | €2,500 |
-| Cloud Migration & Platform Engineering | $20,000 to $70,000 | €10,000 to €35,000 |
-| Cloud Security Posture & Hardening | $10,000 to $18,000 | €5,000 to €9,000 |
+| Cloud Migration & Platform Engineering | [Book a call](https://www.netninjas.us/book) | [Book a call](https://www.netninjas.eu/book) |
+| Cloud Security Posture & Hardening | [Book a call](https://www.netninjas.us/book) | [Book a call](https://www.netninjas.eu/book) |
 | AI-Built App Security Review | $500 to $2,000 | €500 to €3,500 |
-| AI Implementation Sprint | $12,000 to $24,000 | €6,000 to €12,000 |
-| Fractional Cloud & AI Advisor | $7,000 to $14,000 per month | €2,000 to €4,000 per month |
+| AI Implementation Sprint | [Book a call](https://www.netninjas.us/book) | [Book a call](https://www.netninjas.eu/book) |
+| Fractional Cloud & AI Advisor | [Book a call](https://www.netninjas.us/book) | [Book a call](https://www.netninjas.eu/book) |
 
-Most engagements start with the review: an honest map of your infrastructure, security, scalability, and cloud spend, turned into a ranked roadmap. See full pricing for [US clients →](https://www.netninjas.us/pricing) or [EU clients →](https://www.netninjas.eu/pricing)
+Most engagements start with the review: an honest map of your infrastructure, security, scalability, and cloud spend, turned into a ranked roadmap. I quote the other packages on a short call, once I know your setup. See all packages for [US clients →](https://www.netninjas.us/pricing) or [EU clients →](https://www.netninjas.eu/pricing)
 
 ## How it works
 
