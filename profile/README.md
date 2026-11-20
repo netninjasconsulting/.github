@@ -52,7 +52,7 @@ The links go to the US site. Every service has the same page on [netninjas.eu](h
 | Cloud Cost & Architecture Review | $2,500 | €2,500 |
 | Cloud Migration & Platform Engineering | [Book a call](https://www.netninjas.us/book) | [Book a call](https://www.netninjas.eu/book) |
 | Cloud Security Posture & Hardening | [Book a call](https://www.netninjas.us/book) | [Book a call](https://www.netninjas.eu/book) |
-| AI-Built App Security Review | $500 to $2,000 | €500 to €3,500 |
+| AI-Built App Security Review | $500 to $2,000 | €500 to €2,000 |
 | AI Implementation Sprint | [Book a call](https://www.netninjas.us/book) | [Book a call](https://www.netninjas.eu/book) |
 | Fractional Cloud & AI Advisor | [Book a call](https://www.netninjas.us/book) | [Book a call](https://www.netninjas.eu/book) |
 
