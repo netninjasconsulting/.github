@@ -70,7 +70,7 @@ For any team that builds with AI coding tools:
 [Securing AI-generated apps](https://www.netninjas.us/guides/securing-ai-generated-applications) ·
 [An AI-assisted development workflow](https://www.netninjas.us/guides/ai-assisted-development-workflow) ·
 [GitOps best practices](https://www.netninjas.us/guides/gitops-best-practices) ·
-[Six free agent skills](https://github.com/netninjasconsulting/agent-skills)
+[Free AI agent skills for development, DevOps, and security](https://github.com/netninjasconsulting/agent-skills)
 
 For EU teams, where regulation shapes the architecture:
 [NIS2](https://www.netninjas.eu/guides/nis2-for-startups) ·
